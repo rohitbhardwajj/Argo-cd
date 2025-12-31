@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: nginx:latest
+          image: rohit20000/task-vault-frontend:final
           ports:
             - containerPort: 80
