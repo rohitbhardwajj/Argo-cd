@@ -17,3 +17,5 @@ spec:
     automated:                     # Enable auto-sync
       prune: true                  # Delete resources removed from Git
       selfHeal: true               # Fix drift if resources are changed manually
+    syncOptions:
+      - CreateNamespace=true
