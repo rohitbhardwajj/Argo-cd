@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/rohitbhardwajj/Argo-cd.git   # Git repo containing manifests
     targetRevision: main           # Git branch or tag (e.g., main, dev, release-1.0)
-    path: nginx   # Path inside repo where manifests live
+    path: nginxfeatures/projects   # Path inside repo where manifests live
   destination:
     server: https://172.31.76.233:33893   # Target cluster API
     namespace: nginx             # Namespace in which to deploy the app
