@@ -1,6 +1,6 @@
 
-apiVersion: argoproj.io/v1alpha1   # API group for ArgoCD resources
-kind: Application                  # Resource type is "Application"
+apiVersion: argoproj.io/v1alpha1   
+kind: Application                 
 metadata:
   name: online-shop-app            # Name of this ArgoCD application
   namespace: argocd                # Must be created in the 'argocd' namespace
